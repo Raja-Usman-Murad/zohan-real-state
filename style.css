@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+.row {
+  margin: 0;
+}
+.header {
+  background: linear-gradient(to left, rgb(45, 109, 253), rgb(157, 134, 255));
+}
+.navbar-brand {
+  color: whitesmoke !important;
+}
+.navbar {
+  background-color: transparent !important;
+}
+.nav-link {
+  color: whitesmoke !important;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+.btn-lg {
+  padding: 0.7rem 1.5rem !important;
+  line-height: 0.6 !important;
+  font-size: 1rem !important;
+}
+.btn-outline-secondary:hover {
+  color: #fffffffd;
+  background-color: transparent;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  @media screen and (min-width: 992px) {
+    padding-right: 1.2em;
+    padding-left: 1.2rem;
+  }
+}
