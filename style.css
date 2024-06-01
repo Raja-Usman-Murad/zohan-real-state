@@ -41,3 +41,29 @@
     padding-left: 1.2rem;
   }
 }
+
+.all-in-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 56px);
+}
+.all-in-one_heading,
+.all-in-one_sub-heading,
+.all-in-one_paragraph,
+.all-in-one_list-text {
+  color: #246bfd;
+}
+
+.all-in-one-image {
+  width: 100%;
+  @media screen and (min-width: 1300px) {
+    margin-top: -2rem;
+  }
+}
+.all-in-one_selling-button {
+  background: linear-gradient(to right, rgb(45, 109, 253), rgb(157, 134, 255));
+}
+.all-in-one_rent-button {
+  background: linear-gradient(to left, rgb(45, 109, 253), rgb(157, 134, 255));
+}
